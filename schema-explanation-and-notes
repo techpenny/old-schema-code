@@ -1,0 +1,121 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "TechPenny",
+  "url": "https://www.techpenny.com",
+  "logo": "https://www.techpenny.com/logo.png",
+  "contactPoint": {
+    "@type": "ContactPoint",
+    "telephone": "+1-800-123-4567",
+    "contactType": "Customer service"
+  }
+}
+
+{
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "name": "TechPenny",
+  "image": "https://www.techpenny.com/image.jpg",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "123 Tech St",
+    "addressLocality": "Tech City",
+    "postalCode": "12345",
+    "addressCountry": "USA"
+  },
+  "telephone": "+1-800-123-4567"
+}
+
+{
+  "@context": "https://schema.org",
+  "@type": "Corporation",
+  "name": "TechPenny",
+  "tickerSymbol": "TPNY",
+  "address": "123 Tech St, Tech City, USA",
+  "contactPoint": {
+    "@type": "ContactPoint",
+    "telephone": "+1-800-123-4567",
+    "contactType": "Investor Relations"
+  }
+}
+
+
+
+1. OrganizationName:
+   - Description: The official name of the organization.
+   - Type: String
+   - Example: "TechPenny"
+
+2. Tagline:
+   - Description: A short, impactful phrase or sentence encapsulating the mission or essence of the organization.
+   - Type: String
+   - Example: "Empowering Innovation, One Penny at a Time"
+
+3. Introduction:
+   - Description: A brief overview of the organization, typically including its mission, purpose, and primary focus.
+   - Type: Text
+   - Example: "TechPenny is a forward-thinking technology organization, committed to fostering innovation and..."
+
+4. FoundingDate:
+   - Description: The date when the organization was founded.
+   - Type: Date
+   - Example: "January 1, 2020"
+
+5. Founders:
+   - Description: The names of the individuals who founded the organization.
+   - Type: List of Strings
+   - Example: ["Jane Doe", "John Doe"]
+
+6. HeadquartersLocation:
+   - Description: The location of the organization's main office or headquarters.
+   - Type: String
+   - Example: "Silicon Valley, CA, USA"
+
+7. ContactInformation:
+   - Description: The various ways to get in touch with the organization, including email, phone number, and physical address.
+   - Type: Object
+      - Email: String
+      - Phone: String
+      - Address: String
+   - Example: {"Email": "info@techpenny.com", "Phone": "123-456-7890", "Address": "123 Tech Street, Silicon Valley, CA"}
+
+8. VisionStatement:
+   - Description: A statement articulating the organization's aspirations and the impact it hopes to make in the future.
+   - Type: Text
+   - Example: "To be a global leader in technology innovation, inspiring change and making the world a better place..."
+
+9. MissionStatement:
+   - Description: A statement outlining the organization’s purpose and primary objectives.
+   - Type: Text
+   - Example: "To empower innovators and pioneers, driving progress and advancing technology to solve real-world problems..."
+
+10. CoreValues:
+    - Description: The fundamental beliefs and principles that guide the organization’s behavior and decision-making.
+    - Type: List of Strings
+    - Example: ["Innovation", "Integrity", "Collaboration", "Excellence", "Sustainability"]
+
+11. ServicesAndProducts:
+    - Description: An overview of the main services and/or products offered by the organization.
+    - Type: List of Objects
+        - Name: String
+        - Description: String
+    - Example: [{"Name": "Tech Consultation", "Description": "Providing expert advice and solutions for tech-related projects..."}, {"Name": "Software Development", "Description": "Creating cutting-edge software solutions..."}]
+
+12. Achievements:
+    - Description: Highlights of the organization's accomplishments, awards, or notable milestones.
+    - Type: List of Strings
+    - Example: ["Won the ‘Innovator of the Year’ award in 2021", "Developed a breakthrough Artificial Intelligence algorithm"]
+
+13. Partnerships:
+    - Description: A list of other organizations or entities that TechPenny has partnered with.
+    - Type: List of Strings
+    - Example: ["TechGiant Inc.", "Innovate Solutions"]
+
+14. SocialMediaLinks:
+    - Description: URLs to the organization’s official social media profiles.
+    - Type: Object
+        - Facebook: URL
+        - Twitter: URL
+        - LinkedIn: URL
+        - Instagram: URL
+    - Example: {"Facebook": "http://facebook.com/techpenny", "Twitter": "http://twitter.com/techpenny", "LinkedIn": "http://linkedin.com/company/techpenny", "Instagram": "http://instagram.com/techpenny"}
